@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    background-color: whitesmoke;
+  }
+  .header{
+    background-color:green  ;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-family: CENTURY GOTHIC;
+    font-size: 30px;
+    margin-top: 0;
+    color: white;
+  }
+
+  h2{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .container {
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 50px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: century gothic;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: century gothic;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background-color: #66e19a;
+    color: black;
+    font-family: century gothic;
+    font-size: 15px;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: century gothic;
+  }
+  
